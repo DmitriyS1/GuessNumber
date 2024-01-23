@@ -35,7 +35,7 @@ def game_core_v3(number: int = 1) -> int:
     """
     count = 0 # Счетчик попыток
     predict = 50 # Начинаем с середины диапазона
-    left = 1 # Левая граница диапазона
+    left = 0 # Левая граница диапазона
     right = 100 # Правая граница диапазона
     while number != predict:
         count += 1
